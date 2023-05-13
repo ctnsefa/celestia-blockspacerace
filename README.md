@@ -59,4 +59,8 @@ python3 app.py
 #### Don't forget to open the port! :26659 <br/> <br/>
 # Web demo
 - http://http://155.133.22.103:5001/ <br/> <br/>
-
+## Enter the server ip <br/> <br/>
+<img src="https://raw.githubusercontent.com/ctnsefa/celestia-blockspacerace/main/payforblab%20ui.png" width="auto"> <br/> <br/>
+## Port :26659 <br/> <br/>
+## And it should output this . <br/> <br/>
+<img src="https://raw.githubusercontent.com/ctnsefa/celestia-blockspacerace/main/txhash.png" width="auto"> <br/> <br/>
