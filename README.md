@@ -58,7 +58,7 @@ python3 app.py
 #### Start and use . As a result it will give you a demo website. Everything is ready ! <br/> <br/>
 #### Don't forget to open the port! :26659 <br/> <br/>
 # Web demo
-- http://http://155.133.22.103:5001/ <br/> <br/>
+- http://155.133.22.103:5001/ <br/> <br/>
 ## Enter the server ip <br/> <br/>
 <img src="https://raw.githubusercontent.com/ctnsefa/celestia-blockspacerace/main/payforblab%20ui.png" width="auto"> <br/> <br/>
 ## Port :26659 <br/> <br/>
