@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayForBlob Result</title>
+</head>
+<body>
+    <h1>PayForBlob Result</h1>
+
+    {% if result %}
+    <h2>Result:</h2>
+    {% if result.get('transaction_hash') and result.get('success') %}
+        <p>Success</p>
+        <p>Transaction Hash: {{ result.get('transaction_hash') }}</p>
+    {% elif result.get('error') %}
+        <p>Failed: {{ result.get('error') }}</p>
+    {% else %}
+        <p>Unexpected Error Occured.</p>
+    {% endif %}
+    {% else %}
+    <p>No result available.</p>
+    {% endif %}
+</body>
+</html>
